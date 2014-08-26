@@ -7,7 +7,7 @@ program
 	.option('-p, --patch', 'Update patch version (default)')
 	.option('-m, --minor', 'Update minor version')
 	.option('-M, --major', 'Update major version')
-	.option('-i, --index <number>', 'Update specified 0-based index', parseInt)
+	.option('-i, --index <number>', 'Update version on specified index (0 for major)', parseInt)
 	.option('-r, --revert', 'Decrement instead of increment')
 	.option('-R, --root <path>', 'Where to look for the source file ($CWD)')
 	.option('-f, --filename <file>', 'Filename of the source (package.json)')
