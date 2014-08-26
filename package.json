@@ -1,0 +1,22 @@
+{
+	"name": "uver-cli",
+	"author": "Ariel Flesler <aflesler@gmail.com>",
+	"version": "1.0.0",
+	"description": "CLI tool to update the version on package.json and other files",
+	"keywords": ["cli", "version", "package", "json", "patch", "minor", "mayor", "release"],
+	"license": "MIT",
+	"homepage": "https://github.com/flesler/uver-cli",
+	"bugs": "https://github.com/flesler/uver-cli/issues",
+	"repository": "git://github.com/flesler/uver-cli",
+	"main": "./bin/uver.js",
+	"preferGlobal": true,
+	"bin": {
+		"uver": "./bin/uver.js"
+	},
+	"engines": { "node": "*" },
+	"dependencies": {
+		"commander": "^2.3.0",
+		"uver": "^1.0.0"
+	},
+	"devDependencies": {}
+}
