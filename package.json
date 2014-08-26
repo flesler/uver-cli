@@ -2,7 +2,7 @@
 	"name": "uver-cli",
 	"author": "Ariel Flesler <aflesler@gmail.com>",
 	"version": "1.0.0",
-	"description": "CLI tool to update the version on package.json and other files",
+	"description": "CLI tool to bump the version on package.json and other files",
 	"keywords": ["cli", "version", "package", "json", "patch", "minor", "mayor", "release"],
 	"license": "MIT",
 	"homepage": "https://github.com/flesler/uver-cli",
