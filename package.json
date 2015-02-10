@@ -1,7 +1,7 @@
 {
 	"name": "uver-cli",
 	"author": "Ariel Flesler <aflesler@gmail.com>",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "CLI tool to bump the version on package.json and other files",
 	"keywords": ["cli", "version", "package", "json", "patch", "minor", "mayor", "release"],
 	"license": "MIT",
@@ -16,7 +16,7 @@
 	"engines": { "node": "*" },
 	"dependencies": {
 		"commander": "^2.3.0",
-		"uver": "^1.0.0"
+		"uver": "^1.1.0"
 	},
 	"devDependencies": {}
 }
