@@ -8,6 +8,8 @@ To bump file versions from within your code, check out [uver](https://github.com
 
 ## Installation
 
+[![NPM](https://nodei.co/npm/uver-cli.png?compact=true)](https://npmjs.org/package/uver-cli)
+
 ``` bash
 $ npm install -g uver-cli
 ```
